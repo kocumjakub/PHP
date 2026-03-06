@@ -1,0 +1,24 @@
+{
+    "require": {
+        "symfony/framework-bundle": "^7.3",
+        "doctrine/doctrine-bundle": "^2.15",
+        "doctrine/orm": "^3.5",
+        "symfony/runtime": "^7.3",
+        "symfony/yaml": "^7.3",
+        "gedmo/doctrine-extensions": "^3.20",
+        "symfony/property-info": "^7.3",
+        "symfony/serializer": "^7.3",
+        "symfony/property-access": "^7.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+       "classmap": [ "src/Kernel.php" ]
+    }
+}
